@@ -4,151 +4,281 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legal solution 2</title>
-    <link rel="stylesheet" crossorigin href="/legal-solution2/assets/index-DeUXQib4.css">
+    <link rel="stylesheet" crossorigin href="/legal-solution2/assets/index-iMALKoqR.css">
   </head>
-  <body>
-    <div class="navbar bg-base-100 shadow-sm">
-      <div class="flex-1">
-        <a class="btn btn-ghost text-xl">daisyUI</a>
-      </div>
-      <div class="flex gap-2">
-        <input
-          type="text"
-          placeholder="Search"
-          class="input input-bordered w-24 md:w-auto"
-        />
-        <div class="dropdown dropdown-end">
-          <div
-            tabindex="0"
-            role="button"
-            class="btn btn-ghost btn-circle avatar"
-          >
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS Navbar component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-              />
+  <body class="font-primary">
+    <header class="container mx-auto lg:max-w-[1400px]">
+      <nav class="font-secondary text-base text-[#707070]">
+        <div class="navbar">
+          <div class="navbar-start">
+            <!-- Menu and logo part -->
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 mr-1.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-primary"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <details>
+                    <summary>Services</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Cases</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Blog</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Contact Us</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a class="flex items-center" href="#">
+                <img src="src/assets/images/logo2.png" alt="Justice Logo" />
+              </a>
             </div>
           </div>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a>Home</a>
+              </li>
+              <li>
+                <details>
+                  <summary
+                    class="after:scale-150 after:rotate-[-45deg] active:after:rotate-[45deg] after:text-primary"
+                  >
+                    Services
+                  </summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary
+                    class="after:scale-150 after:rotate-[-45deg] active:after:rotate-[45deg] after:text-primary"
+                  >
+                    Cases
+                  </summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary
+                    class="after:scale-150 after:rotate-[-45deg] active:after:rotate-[45deg] after:text-primary"
+                  >
+                    Blog
+                  </summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary
+                    class="after:scale-150 after:rotate-[135deg] active:after:rotate-[225deg] after:text-primary"
+                  >
+                    Contact Us
+                  </summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn lg:btn-xl rounded-[8px] hover:text-slate-600 text-white bg-primary"
+              >Free Consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- ////////Banner/////// -->
+      <section
+        class="my-14 bg-[url('src/assets/images/banner.png')] bg-cover bg-center bg-no-repeat rounded-2xl w-[95vw] lg:w-full mx-auto"
+      >
+        <div class="text-center max-w-2xl mx-auto py-36 space-y-12">
+          <h1 class="text-4xl lg:text-7xl font-extrabold text-white">
+            We Provide Effective Legal Solutions
+          </h1>
+          <p class="font-secondary text-white">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <div>
+            <div class="flex justify-center w-3/4 gap-1.5 lg:gap-6 mx-auto">
+              <input
+                type="text"
+                placeholder="Search your services"
+                class="input font-secondary focus:outline-none p-5 placeholder:font-secondary focus:font-secondary lg:input-xl border-0 rounded-[8px] w-full"
+              />
+              <button
+                class="btn btn2 font-secondary lg:btn-xl bg-primary shadow-none border-0 button rounded-[8px]"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="container mx-auto lg:max-w-[1400px]">
+      <section class="space-y-5 my-32">
+        <h2 class="text-5xl font-extrabold text-center">
+          The Legal Practice Area
+        </h2>
+        <p class="font-secondary text-center max-w-[714px] mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+        <!-- Cards Area -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 border-collapse">
+          <!-- Card -1  -->
+          <div
+            class="text-center md:px-10 lg:px-20 md:py-8 lg:py-16 space-y-5 border-r border-b border-[#E7E7E7]"
           >
-            <li>
-              <a class="justify-between">
-                Profile
-                <span class="badge">New</span>
-              </a>
-            </li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="breadcrumbs text-sm">
-      <ul>
-        <li><a>Home</a></li>
-        <li><a>Documents</a></li>
-        <li>Add Document</li>
-      </ul>
-    </div>
-    <div class="hero bg-base-200 min-h-screen">
-      <div class="hero-content flex-col lg:flex-row">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-          class="max-w-sm rounded-lg shadow-2xl"
-        />
-        <div>
-          <h1 class="text-5xl font-bold">Box Office News!</h1>
-          <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button class="btn btn-primary">Get Started</button>
-        </div>
-      </div>
-    </div>
-    <div class="hero bg-base-200 min-h-screen">
-      <div class="hero-content flex-col lg:flex-row-reverse">
-        <div class="text-center lg:text-left">
-          <h1 class="text-5xl font-bold">Login now!</h1>
-          <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-        </div>
-        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-          <div class="card-body">
-            <fieldset class="fieldset">
-              <label class="fieldset-label">Email</label>
-              <input type="email" class="input" placeholder="Email" />
-              <label class="fieldset-label">Password</label>
-              <input type="password" class="input" placeholder="Password" />
-              <div><a class="link link-hover">Forgot password?</a></div>
-              <button class="btn btn-neutral mt-4">Login</button>
-            </fieldset>
+            <img class="mx-auto" src="/src/assets/images/business.png" alt="" />
+            <h3 class="text-3xl font-extrabold">Business Law</h3>
+            <p class="font-secondary">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <i
+              class="fa-solid fa-circle-arrow-right text-3xl text-[#B68C5A]"
+            ></i>
+          </div>
+          <!-- Card 2  -->
+          <div
+            class="text-center bg-gradient-to-b from-[#F3F3F3] to-[#f3f3f300] md:px-10 lg:px-20 md:py-8 lg:py-16 space-y-5 lg:border border-t-0 md:border-r-0 border-[#E7E7E7]"
+          >
+            <img class="mx-auto" src="src/assets/images/criminal.png" alt="" />
+            <h3 class="text-3xl font-extrabold">Criminal Law</h3>
+            <p class="font-secondary">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <i
+              class="fa-solid fa-circle-arrow-right text-3xl text-[#B68C5A]"
+            ></i>
+          </div>
+          <!-- Card 3  -->
+          <div
+            class="text-center md:px-10 lg:px-20 md:py-8 lg:py-16 space-y-5 lg:border-l lg:border-b md:border-l border-[#E7E7E7]"
+          >
+            <img class="mx-auto" src="src/assets/images/child.png" alt="" />
+            <h3 class="text-3xl font-extrabold">Child Support</h3>
+            <p class="font-secondary">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <i
+              class="fa-solid fa-circle-arrow-right text-3xl text-[#B68C5A]"
+            ></i>
+          </div>
+          <!-- Card 4  -->
+          <div
+            class="text-center md:px-10 lg:px-20 md:py-8 lg:py-16 space-y-5 border-r border-t border-[#E7E7E7]"
+          >
+            <img class="mx-auto" src="src/assets/images/education.png" alt="" />
+            <h3 class="text-3xl font-extrabold">Education Law</h3>
+            <p class="font-secondary">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <i
+              class="fa-solid fa-circle-arrow-right text-3xl text-[#B68C5A]"
+            ></i>
+          </div>
+          <!-- Card 5  -->
+          <div
+            class="text-center md:px-10 lg:px-20 md:py-8 lg:py-16 space-y-5 border border-b-0 border-[#E7E7E7]"
+          >
+            <img class="mx-auto" src="src/assets/images/divorce.png" alt="" />
+            <h3 class="text-3xl font-extrabold">Divorce Law</h3>
+            <p class="font-secondary">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <i
+              class="fa-solid fa-circle-arrow-right text-3xl text-[#B68C5A]"
+            ></i>
+          </div>
+          <!-- Card 6  -->
+          <div
+            class="text-center md:px-10 lg:px-20 md:py-8 lg:py-16 space-y-5 border-l border-t border-[#E7E7E7]"
+          >
+            <img class="mx-auto" src="src/assets/images/tax.png" alt="" />
+            <h3 class="text-3xl font-extrabold">Tax Law</h3>
+            <p class="font-secondary">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <i
+              class="fa-solid fa-circle-arrow-right text-3xl text-[#B68C5A]"
+            ></i>
           </div>
         </div>
-      </div>
-    </div>
-    <footer
-      class="footer sm:footer-horizontal bg-base-200 text-base-content p-10"
-    >
-      <nav>
-        <h6 class="footer-title">Services</h6>
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Company</h6>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Legal</h6>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </nav>
-      <form>
-        <h6 class="footer-title">Newsletter</h6>
-        <fieldset class="w-80">
-          <label>Enter your email address</label>
-          <div class="join">
-            <input
-              type="text"
-              placeholder="username@site.com"
-              class="input input-bordered join-item"
-            />
-            <button class="btn btn-primary join-item">Subscribe</button>
-          </div>
-        </fieldset>
-      </form>
-    </footer>
-    <div class="join">
-      <div>
-        <div>
-          <input class="input input-bordered join-item" placeholder="Search" />
-        </div>
-      </div>
-      <select class="select select-bordered join-item">
-        <option disabled selected>Filter</option>
-        <option>Sci-fi</option>
-        <option>Drama</option>
-        <option>Action</option>
-      </select>
-      <div class="indicator">
-        <span class="indicator-item badge badge-secondary">new</span>
-        <button class="btn join-item">Search</button>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>
